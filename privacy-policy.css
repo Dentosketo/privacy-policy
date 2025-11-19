@@ -1,0 +1,113 @@
+/* Qityol Lite Privacy Policy - Stylesheet */
+
+/* Base styles */
+@font-face {
+    font-family: "Qurova";
+    src: url("qurova/QurovaDEMO-Regular-BF67a5c637a5dc9.otf") format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Qurova";
+    src: url("qurova/QurovaDEMO-Medium-BF67a5c6382651c.otf") format("opentype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Qurova";
+    src: url("qurova/QurovaDEMO-SemiBold-BF67a5c637bcd0b.otf") format("opentype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Qurova";
+    src: url("qurova/QurovaDEMO-Bold-BF67a5c637eed62.otf") format("opentype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Qurova";
+    src: url("qurova/QurovaDEMO-Light-BF67a5c6380ebd4.otf") format("opentype");
+    font-weight: 300;
+}
+
+
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f5fb;
+    color: #2b2b2b;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #4a4aef, #6b6bff);
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Logo text */
+header .logo {
+    font-family: 'Qurova', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    margin-top: 0.5rem;
+    opacity: 0.9;
+}
+
+/* Main container */
+main {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 2rem 2.5rem;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+h2 {
+    margin-top: 2.2rem;
+    color: #4a4aef;
+}
+
+h3 {
+    margin-top: 1.5rem;
+    color: #3a3ad0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: #4a4aef;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
